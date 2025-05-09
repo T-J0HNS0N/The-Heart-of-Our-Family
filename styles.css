@@ -11,6 +11,19 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
+  position: relative; /* For overlay */
+}
+
+/* Dark overlay for the entire page */
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: -1; /* Place behind the content */
 }
 
 h1, h2 {
@@ -49,11 +62,13 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Section */
+/* Section with semi-transparent background */
 section {
   padding: 3em 2em;
   margin: 0 auto;
   max-width: 1200px;
+  background-color: rgba(255, 255, 255, 0.7); /* White background with transparency */
+  border-radius: 8px; /* Optional: Add rounded corners */
 }
 
 section p {
@@ -61,10 +76,10 @@ section p {
   font-size: 1.1rem;
   margin: 1em 0;
   font-weight: bold;
+  color: #444; /* Slightly darker for more contrast */
 }
 
-
-/* Blockquote */
+/* Blockquote with background for readability */
 blockquote {
   font-style: italic;
   font-size: 1.2rem;
@@ -72,6 +87,9 @@ blockquote {
   margin-top: 1.5em;
   padding-left: 20px;
   border-left: 5px solid #8b0000;
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for better readability */
+  border-radius: 8px; /* Optional */
+  padding: 1em; /* Padding inside the blockquote */
 }
 
 /* Gallery */
