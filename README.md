@@ -1,3 +1,1 @@
-This is a simple, heartfelt website I created for my mom for Mother’s Day!
-How to View the Website
-You can view the live website at:
+A digital scrapbook of love, laughter, and all the little things that made growing up with you so special.This website is a collection of moments, memories, and messages that celebrate the amazing woman who shaped us into who we are. Happy Mother’s Day!
