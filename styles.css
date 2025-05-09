@@ -1,8 +1,13 @@
 /* General Styles */
-body 
+body
   font-family: 'Segoe UI', sans-serif
   text-align: center
-  background: #fff8f0
+  background-color: #f3e6fa
+  background-image: url('images/background.png')
+  background-size: cover
+  background-position: center
+  background-attachment: fixed
+  background-repeat: no-repeat
   color: #333
   margin: 0
   padding: 0
