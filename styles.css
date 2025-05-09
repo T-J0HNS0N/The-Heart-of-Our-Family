@@ -60,7 +60,9 @@ section p {
   line-height: 1.6;
   font-size: 1.1rem;
   margin: 1em 0;
+  font-weight: bold;
 }
+
 
 /* Blockquote */
 blockquote {
